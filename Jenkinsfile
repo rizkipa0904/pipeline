@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t rafdev0904/pipeline:latest.'
+        sh 'docker build -t rafdev0904/pipeline:latest .'
       }
     }
     stage('Login') {
